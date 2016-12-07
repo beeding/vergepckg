@@ -1640,11 +1640,11 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #d62839;
+		color: #fff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
-		letter-spacing: 0.025em;
+		letter-spacing: 0.em;
 		line-height: 1.65;
 	}
 
@@ -1705,7 +1705,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #d62839;
+		text-transform: uppercase;
+		color: #fff;
 		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -2538,8 +2539,8 @@
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #d62839;
-		color: #d62839;
+		box-shadow: inset 0 0 0 2px #fff;
+		color: #fff;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2653,7 +2654,7 @@
 			input[type="button"].next:before,
 			button.next:before,
 			.button.next:before {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23d62839%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23fff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
 			}
 
 			input[type="submit"].next:after,
@@ -3141,7 +3142,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #fff;
+		background-color: #000;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3280,7 +3281,7 @@
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background-color: #fcf3e7;
+			background-color: #000;
 			box-shadow: none;
 			position: absolute;
 		}
@@ -3440,7 +3441,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #ffffff;
+			background-color: #000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3503,10 +3504,10 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 1em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					letter-spacing: 0em;
+					text-transform: ;
 				}
 
 		#banner.major {
